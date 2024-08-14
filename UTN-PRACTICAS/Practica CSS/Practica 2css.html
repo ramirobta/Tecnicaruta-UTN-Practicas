@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase3</title>
+    <style>
+        h1 {
+            border: solid blue 2px;
+            padding: 10px;
+            width: 100px;
+
+        }
+
+        .caja {
+            width: 300px;
+            height: 100px;
+            border: 1px solid blue;
+            padding-left: 10px;
+            box-sizing: border-box;
+        }
+
+        .contenedor{
+
+           /*  display: flex;  deja las cajas una al lado de la otra*/
+        }
+
+        .caja1 {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            
+        }
+        .caja2 {
+            position: relative;
+            left: 400px;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(255, 0, 0);
+           /*  visibility: hidden /* Hace invisible la caja*/
+            
+        }
+        .caja3 {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(0, 255, 98);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Clase 3</h1>
+    <p>Contenido <strong>importante</strong></p>
+
+    <div class="caja">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio corporis recusandae quis aperiam non corrupti
+            iure quaerat nulla cum adipisci!sadsa</p>
+    </div>
+
+
+        <div class="contenedor">
+            <div class="caja1"></div>
+            <div class="caja2"></div>
+            <div class="caja3"></div>
+        </div>
+    
+</body>
+
+</html>
