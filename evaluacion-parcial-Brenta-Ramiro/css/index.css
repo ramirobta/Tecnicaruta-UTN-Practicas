@@ -1,0 +1,168 @@
+* {
+    font-family: Verdana;
+    color: rgb(71, 71, 71);
+    font-size: small;
+}
+
+.cabecera {
+    background-color: rgb(60, 66, 95);
+    color: white;
+    display: flex;
+    box-shadow: 0px 0px 10px black;
+  
+}
+
+.profile-picture {
+    /* Redondear la imagen y darle un tamaño maximo de 200px */
+    max-width: 200px;
+    padding-top: 8px;
+    padding-left: 10px;
+    border-radius: 120px;
+
+}
+
+
+.presentacion {
+    background-color: white;
+    margin: 2%;
+    color: rgb(92, 92, 92);
+    padding: 2%;
+    border-radius: 2em;
+}
+
+.nav-bar {
+    display: flex;
+
+    
+}
+
+.datos-personales {
+    background: #d1d0d0;
+    padding: 1%;
+    box-shadow: 0px 0px 3px black;
+
+
+}
+
+
+
+
+.title {
+    font-weight: bold;
+}
+
+.contenido {
+    padding: 2em;
+}
+
+.date {
+    color: gray;
+    font-size: small;
+    
+}
+
+h3 {
+    background-color: rgb(183, 176, 189);
+    padding: 2px;
+}
+
+.my-button {
+    padding: 10px 20px;
+    background-color: rgb(60, 66, 95);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.my-button:hover{
+    background-color: rgb(70, 81, 134);
+    
+}
+
+.datos-personales-contacto{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4,fr);
+    gap: 10px;
+
+}
+#box1{
+    color: white;
+    border-radius: 20px;
+    padding-left:10px ;
+    padding-top: 10px;
+    background-color: rgb(8, 151, 103);
+    grid-column: 1/4;
+    grid-row: 1;
+    height: 30px;
+}
+#box2{
+    background-color: rgba(0, 255, 213, 0.151);
+    grid-column: 1/2;
+    grid-row: 2/8;
+    border-radius: 20px;
+    padding-left: 10px;
+    
+}
+
+
+.datos-contenedor{
+    background-color: #e2e0e0;
+}
+
+#box3{
+    grid-column: 2/4;
+
+    background-color: #e2e0e0;
+    border-radius: 10px;
+    height: 80px;
+    padding-left: 10px;
+
+    
+}
+#box4{
+    grid-column: 2/4;
+    background-color: #e2e0e0;
+    border-radius: 10px;
+    height: 80px;
+
+    padding-left: 10px;
+
+
+
+}
+#box5{
+    grid-column: 2/4;
+
+    background-color: #e2e0e0;
+    border-radius: 10px;
+    height: 80px;
+
+    padding-left: 10px;
+
+
+
+}
+#box6{
+    grid-column: 2/4;
+
+    background-color: #e2e0e0;
+    border-radius: 10px;
+    height: 80px;
+
+    padding-left: 10px;
+
+
+
+}
+#box7{
+    grid-column: 2/4;
+
+    background-color: #e2e0e0;
+    border-radius: 10px;
+    height: 80px;
+
+    padding-left: 10px;
+
+
+}
